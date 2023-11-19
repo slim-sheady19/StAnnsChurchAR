@@ -2589,7 +2589,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: ab504da0bed6bc74f836bf640069a9e7, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 44a6192095bb020438823deb276a6550, type: 2}
+      objectReference: {fileID: 2100000, guid: 0d9333db2e0096e48acda4544a0a93bd, type: 2}
     - target: {fileID: -7511558181221131132, guid: ab504da0bed6bc74f836bf640069a9e7, type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
@@ -2605,7 +2605,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: ab504da0bed6bc74f836bf640069a9e7, type: 3}
       propertyPath: m_Materials.Array.data[4]
       value: 
-      objectReference: {fileID: 2100000, guid: af7bf6bb697699b45a96242a8b31fd28, type: 2}
+      objectReference: {fileID: 2100000, guid: dc979ce9928d3b14a8a9717c4452c7f7, type: 2}
     - target: {fileID: -7511558181221131132, guid: ab504da0bed6bc74f836bf640069a9e7, type: 3}
       propertyPath: m_Materials.Array.data[5]
       value: 
@@ -2907,9 +2907,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _altitudeOffset: 0
-  _latitude: 45.49165887582223
-  _longitude: -73.55859602218754
-  _altitude: -20.179998125427655
+  _latitude: 45.4916588758218
+  _longitude: -73.558596022188
+  _altitude: -20.249997819239017
   _altitudeType: 1
   _anchorManager: {fileID: 0}
 --- !u!4 &1069751165
@@ -2921,7 +2921,7 @@ Transform:
   m_GameObject: {fileID: 1069751163}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.9953187, z: -0, w: -0.096646845}
-  m_LocalPosition: {x: -3.09, y: -21.18, z: -4.27}
+  m_LocalPosition: {x: -3.09, y: -21.25, z: -4.27}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
