@@ -1,6 +1,7 @@
 # StAnnsChurchAR
 
-![image](https://github.com/slim-sheady19/StAnnsChurchAR/assets/58230539/5bbfd363-601e-46b2-97ed-91ae684d7de3)
+![image](https://github.com/slim-sheady19/StAnnsChurchAR/assets/58230539/24a1143f-3999-460b-bc0d-4bd72fd8d60e)
+
 
 ## Installation
 NOTE: the app only works for Android devices at this time.
