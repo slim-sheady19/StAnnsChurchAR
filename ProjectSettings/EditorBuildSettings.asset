@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/WelcomeScene.unity
     guid: 812a1aa4a60a1574cadba979ac09ff8f
   - enabled: 1
-    path: Assets/Scenes/StAnns_Griffintown.unity
+    path: Assets/Scenes/StAnns_Griffintown_previous.unity
     guid: 36bc84811be54bd42905b94ddf5a5d81
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 9d2fa37b703316f42b56a99fa8dc315f, type: 2}
