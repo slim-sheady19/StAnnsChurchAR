@@ -5,12 +5,18 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/WelcomeScene.unity
     guid: 812a1aa4a60a1574cadba979ac09ff8f
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/StAnns_Griffintown_previous.unity
     guid: 36bc84811be54bd42905b94ddf5a5d81
+  - enabled: 1
+    path: Assets/Scenes/StAnns_Griffintown.unity
+    guid: af78f9318c1ae0841bcafe16d3af4a20
+  - enabled: 0
+    path: Assets/Samples/ARCore Extensions/1.41.0/Geospatial Sample/Scenes/GeospatialArf5.unity
+    guid: 1e5d96b9ed94e442dbbfddf2475baf5c
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 9d2fa37b703316f42b56a99fa8dc315f, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: ea42095a65951944e97e802f4e846112, type: 2}
