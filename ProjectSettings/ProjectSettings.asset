@@ -138,6 +138,7 @@ PlayerSettings:
   loadStoreDebugModeEnabled: 0
   bundleVersion: 0.1
   preloadedAssets:
+  - {fileID: 11400000, guid: c84f4656649f01c41b14907592958288, type: 2}
   - {fileID: 11400000, guid: 644f52a00430616408205e6b8acda8f9, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -835,7 +836,7 @@ PlayerSettings:
   webGLPowerPreference: 2
   scriptingDefineSymbols:
     Android: ARCORE_INTERNAL_GEOSPATIAL_CREATOR_ENABLED;ARCORE_USE_ARF_5
-    iPhone: ARCORE_INTERNAL_GEOSPATIAL_CREATOR_ENABLED
+    iPhone: ARCORE_INTERNAL_GEOSPATIAL_CREATOR_ENABLED;ARCORE_USE_ARF_5;ARCORE_EXTENSIONS_IOS_SUPPORT;CLOUDANCHOR_IOS_SUPPORT;GEOSPATIAL_IOS_SUPPORT
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:
