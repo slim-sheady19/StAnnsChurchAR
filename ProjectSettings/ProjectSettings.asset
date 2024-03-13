@@ -160,6 +160,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Android: com.NicolaShea.StAnnsChurchAR
+    iPhone: com.swg
   buildNumber:
     Standalone: 0
     VisionOS: 0
