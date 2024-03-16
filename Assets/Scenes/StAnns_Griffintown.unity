@@ -11233,12 +11233,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _altitudeOffset: NaN
-  _latitude: 45.491658875839896
-  _longitude: -73.55858207809648
+  _latitude: 37.42205952648304
+  _longitude: -122.0828825944868
   _altitude: 0
   _altitudeType: 1
   _useEditorAltitudeOverride: 1
-  _editorAltitudeOverride: -17.909523172304034
+  _editorAltitudeOverride: -7.409523172304034
   _anchorManager: {fileID: 596133976}
   Origin: {fileID: 159842065}
 --- !u!4 &801370677
@@ -19657,12 +19657,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _altitudeOffset: NaN
-  _latitude: 45.48686982071107
-  _longitude: -73.54647095654141
-  _altitude: -2
+  _latitude: 37.417263914266634
+  _longitude: -122.072187056634
+  _altitude: 0
   _altitudeType: 1
   _useEditorAltitudeOverride: 1
-  _editorAltitudeOverride: -13.90754521638155
+  _editorAltitudeOverride: -3.407480970956385
   _anchorManager: {fileID: 596133976}
   Origin: {fileID: 159842065}
 --- !u!4 &1493265946
