@@ -5709,9 +5709,9 @@ MonoBehaviour:
   Origin: {fileID: 596133977}
   Session: {fileID: 193207847}
   AnchorManager: {fileID: 596133976}
-  RaycastManager: {fileID: 596133975}
+  RaycastManager: {fileID: 0}
   EarthManager: {fileID: 596133974}
-  StreetscapeGeometryManager: {fileID: 596133973}
+  StreetscapeGeometryManager: {fileID: 0}
   ARCoreExtensions: {fileID: 1476232295}
   StreetscapeGeometryMaterialBuilding:
   - {fileID: 2100000, guid: 7894c3ef401af4931aa6a101b5fbd724, type: 2}
@@ -8219,8 +8219,6 @@ GameObject:
   - component: {fileID: 596133976}
   - component: {fileID: 596133974}
   - component: {fileID: 596133979}
-  - component: {fileID: 596133975}
-  - component: {fileID: 596133973}
   m_Layer: 0
   m_Name: XR Origin
   m_TagString: Untagged
@@ -8228,19 +8226,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &596133973
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 596133972}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c8327b807ca7a4c87b3b7afa5a2cb0b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AnchorPrefab: {fileID: 5831908950388203684, guid: f09a13e3d47394ab588884ffd124d732, type: 3}
 --- !u!114 &596133974
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8253,19 +8238,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04013b89158ee479c9d622e942e3b60b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &596133975
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 596133972}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fa17d122634046b4a8e23048891fafc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_RaycastPrefab: {fileID: 0}
 --- !u!114 &596133976
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20526,6 +20498,7 @@ MonoBehaviour:
   _url: https://tile.googleapis.com/v1/3dtiles/root.json?key=key
   _ionAssetID: 0
   _ionAccessToken: 
+  _ionServer: {fileID: 0}
   _maximumScreenSpaceError: 16
   _preloadAncestors: 1
   _preloadSiblings: 1
