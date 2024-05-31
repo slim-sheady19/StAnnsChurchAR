@@ -8,4 +8,5 @@ public class SceneChanger : MonoBehaviour
         SceneManager.LoadScene(sceneName);
     }
 }
+//random comment
 

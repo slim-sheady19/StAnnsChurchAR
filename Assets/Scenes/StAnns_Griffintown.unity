@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44402242, g: 0.49316543, b: 0.5722324, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657886, g: 0.49641275, b: 0.5748176, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3152,7 +3152,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &159842064
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3171,7 +3171,7 @@ MonoBehaviour:
   _height: 1
   _ecefX: 1267654.4490806002
   _ecefY: -4295646.204075828
-  _ecefZ: 4525823.089906874
+  _ecefZ: 4525823.089906875
   _scale: 1
 --- !u!114 &159842065
 MonoBehaviour:
@@ -3397,6 +3397,7 @@ GameObject:
   - component: {fileID: 193207848}
   - component: {fileID: 193207847}
   - component: {fileID: 193207846}
+  - component: {fileID: 193207849}
   m_Layer: 0
   m_Name: AR Session
   m_TagString: Untagged
@@ -3446,6 +3447,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &193207849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 193207845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cd9b5b75e8164df08e0eb0395b3a5dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &195393090
 GameObject:
   m_ObjectHideFlags: 0
@@ -5709,9 +5722,9 @@ MonoBehaviour:
   Origin: {fileID: 596133977}
   Session: {fileID: 193207847}
   AnchorManager: {fileID: 596133976}
-  RaycastManager: {fileID: 596133975}
+  RaycastManager: {fileID: 0}
   EarthManager: {fileID: 596133974}
-  StreetscapeGeometryManager: {fileID: 596133973}
+  StreetscapeGeometryManager: {fileID: 0}
   ARCoreExtensions: {fileID: 1476232295}
   StreetscapeGeometryMaterialBuilding:
   - {fileID: 2100000, guid: 7894c3ef401af4931aa6a101b5fbd724, type: 2}
@@ -8219,8 +8232,6 @@ GameObject:
   - component: {fileID: 596133976}
   - component: {fileID: 596133974}
   - component: {fileID: 596133979}
-  - component: {fileID: 596133975}
-  - component: {fileID: 596133973}
   m_Layer: 0
   m_Name: XR Origin
   m_TagString: Untagged
@@ -8228,19 +8239,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &596133973
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 596133972}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c8327b807ca7a4c87b3b7afa5a2cb0b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AnchorPrefab: {fileID: 5831908950388203684, guid: f09a13e3d47394ab588884ffd124d732, type: 3}
 --- !u!114 &596133974
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8253,19 +8251,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04013b89158ee479c9d622e942e3b60b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &596133975
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 596133972}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fa17d122634046b4a8e23048891fafc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_RaycastPrefab: {fileID: 0}
 --- !u!114 &596133976
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9551,7 +9536,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &683091020
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11233,12 +11218,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _altitudeOffset: NaN
-  _latitude: 37.42205952648304
-  _longitude: -122.0828825944868
+  _latitude: 45.491658875839896
+  _longitude: -73.55858207809648
   _altitude: 0
   _altitudeType: 1
   _useEditorAltitudeOverride: 1
-  _editorAltitudeOverride: -7.409523172304034
+  _editorAltitudeOverride: -17.90952317416668
   _anchorManager: {fileID: 596133976}
   Origin: {fileID: 159842065}
 --- !u!4 &801370677
@@ -19657,12 +19642,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _altitudeOffset: NaN
-  _latitude: 37.417263914266634
-  _longitude: -122.072187056634
+  _latitude: 45.48686982071107
+  _longitude: -73.54647095654141
   _altitude: 0
   _altitudeType: 1
   _useEditorAltitudeOverride: 1
-  _editorAltitudeOverride: -3.407480970956385
+  _editorAltitudeOverride: -13.907545217312872
   _anchorManager: {fileID: 596133976}
   Origin: {fileID: 159842065}
 --- !u!4 &1493265946
@@ -20526,6 +20511,7 @@ MonoBehaviour:
   _url: https://tile.googleapis.com/v1/3dtiles/root.json?key=key
   _ionAssetID: 0
   _ionAccessToken: 
+  _ionServer: {fileID: 11400000, guid: ecaad878771214c6685dc840f5c8bd8b, type: 2}
   _maximumScreenSpaceError: 16
   _preloadAncestors: 1
   _preloadSiblings: 1
@@ -21586,7 +21572,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 50, y: 0}
-  m_SizeDelta: {x: 148, y: 31}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &1664493018
 MonoBehaviour:
@@ -23642,7 +23628,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
   m_AnchoredPosition: {x: 0, y: 100}
-  m_SizeDelta: {x: 531, y: 31}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1790705546
 MonoBehaviour:

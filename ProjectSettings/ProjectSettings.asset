@@ -136,7 +136,7 @@ PlayerSettings:
   vulkanEnableLateAcquireNextImage: 0
   vulkanEnableCommandBufferRecycling: 1
   loadStoreDebugModeEnabled: 0
-  bundleVersion: 0.1
+  bundleVersion: 0.6
   preloadedAssets:
   - {fileID: 11400000, guid: 644f52a00430616408205e6b8acda8f9, type: 2}
   metroInputSource: 0
@@ -160,6 +160,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Android: com.NicolaShea.StAnnsChurchAR
+    iPhone: com.swg
   buildNumber:
     Standalone: 0
     VisionOS: 0
@@ -240,8 +241,8 @@ PlayerSettings:
   iOSManualSigningProvisioningProfileType: 0
   tvOSManualSigningProvisioningProfileType: 0
   VisionOSManualSigningProvisioningProfileType: 0
-  appleEnableAutomaticSigning: 0
-  iOSRequireARKit: 0
+  appleEnableAutomaticSigning: 1
+  iOSRequireARKit: 1
   iOSAutomaticallyDetectAndAddCapabilities: 1
   appleEnableProMotion: 0
   shaderPrecisionModel: 0
@@ -581,8 +582,8 @@ PlayerSettings:
   enableInternalProfiler: 0
   logObjCUncaughtExceptions: 1
   enableCrashReportAPI: 0
-  cameraUsageDescription: 
-  locationUsageDescription: 
+  cameraUsageDescription: Required for augmented reality support.
+  locationUsageDescription: For real-world placement of objects.
   microphoneUsageDescription: 
   bluetoothUsageDescription: 
   macOSTargetOSVersion: 10.13.0
@@ -835,7 +836,7 @@ PlayerSettings:
   webGLPowerPreference: 2
   scriptingDefineSymbols:
     Android: ARCORE_INTERNAL_GEOSPATIAL_CREATOR_ENABLED;ARCORE_USE_ARF_5
-    iPhone: ARCORE_INTERNAL_GEOSPATIAL_CREATOR_ENABLED;UNITY_XR_ARKIT_LOADER_ENABLED
+    iPhone: ARCORE_INTERNAL_GEOSPATIAL_CREATOR_ENABLED;UNITY_XR_ARKIT_LOADER_ENABLED;ARCORE_USE_ARF_5;ARCORE_EXTENSIONS_IOS_SUPPORT;GEOSPATIAL_IOS_SUPPORT
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:
