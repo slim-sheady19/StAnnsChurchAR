@@ -18,12 +18,16 @@ public class AspectRatioScaler : MonoBehaviour
     [ContextMenu("Scale Image")]
     public void ScaleImage()
     {
-        // Calculate the scale ratio based on screen width
-        float scaleRatio = Screen.width / originalWidth;
+       //get parent Canvas width and store it
+        float parentWidth = transform.parent.GetComponent<RectTransform>().rect.width;
+        
+        // Calculate the scale ratio based on parent's width
+        
+        float scaleRatio = parentWidth / originalWidth;
 
         // Set the image width to screen width
-        float newWidth = Screen.width;
-
+        float newWidth = parentWidth;
+        
         // Set the image height based on the scale ratio
         float newHeight = originalHeight * scaleRatio;
 
